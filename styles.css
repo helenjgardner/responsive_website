@@ -1,0 +1,49 @@
+body {
+    background-color:#b382a2;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+div {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* type link and tab to prefill */
+/* rgb(1,1,1) */
+/* rmc and inspect to get to developer tools */
+/* lorem ipsum*/
+/* colour generator */
+/* CSS is top to bottom */
+/* media queries tend to be at bottom of page */
+
+@media only screen and (max-width: 1000px){
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        background-color: yellow;
+    }
+   
+}
+
+@media only screen and (max-width: 500px){
+    body {
+        background-color: peru;
+    }
+        div {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    
+}
+
+@media only screen and (max-width: 400px){
+    body {
+        background-color: whitesmoke;
+    }
+}
